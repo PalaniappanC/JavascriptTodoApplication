@@ -23,7 +23,7 @@ function addItem() {
         p.appendChild(message);
         setTimeout(() => {
             message.remove();
-        }, 1000);
+        }, 500);
         return false;
     }
     else{
